@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     # Local apps
     'www',
     'users',
+    'base',
 ]
 
 MIDDLEWARE = [
