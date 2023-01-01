@@ -16,7 +16,7 @@ python manage.py runserver
 docker run -d -p 8000:8000 mfalconsoft/caprover-django
 ```
 
-# How update 
+# How update if you have docker local
 ```
 docker build -t mfalconsoft/backenderp .
 docker push mfalconsoft/backenderp
