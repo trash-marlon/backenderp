@@ -16,6 +16,8 @@ python manage.py runserver --settings app.settings.dev
 # Django
 ```
 python manage.py startapp www
+python manage.py makemigrations
+python manage.py migrate
 ```
 
 # Update the libraries requirements
