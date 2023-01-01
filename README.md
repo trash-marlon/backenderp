@@ -16,10 +16,9 @@ python manage.py runserver --settings app.settings.dev
 python manage.py startapp www
 ```
 
-# Libraries
+# Update the libraries requirements
 ```
-Python==3.9.15
-Django==4.1.4
+pip freeze > requirements.txt
 ```
 
 # How install with docker local
