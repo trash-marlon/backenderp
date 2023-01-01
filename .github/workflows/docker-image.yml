@@ -2,9 +2,9 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ main ]
   pull_request:
-    branches: [ dev ]
+    branches: [ main ]
 
 jobs:
 
@@ -21,7 +21,7 @@ jobs:
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: Build the Docker image
-      run: docker build -t mfalconsoft/backenderp:dev .
+      run: docker build -t mfalconsoft/backenderp .
       
     - name: Docker Push
-      run: docker push mfalconsoft/backenderp:dev
+      run: docker push mfalconsoft/backenderp
