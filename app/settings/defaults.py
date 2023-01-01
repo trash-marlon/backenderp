@@ -141,3 +141,10 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 handler404 = "www.views.page_not_found_view"
 
 AUTH_USER_MODEL = 'users.User'
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+}
