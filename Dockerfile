@@ -18,4 +18,11 @@ COPY . /usr/src/app
 
 EXPOSE 8000
 
+# Make migrations
+RUN python manage.py makemigrations
+
+# Migrate
+RUN python manage.py migrate
+
+# Run server
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
