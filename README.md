@@ -11,6 +11,11 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
+# Django
+```
+python manage.py startapp blog
+```
+
 # Libraries
 ```
 Python==3.9.15
