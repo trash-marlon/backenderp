@@ -31,7 +31,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','www.backenderp.com','backenderp.com']
 
 
 # Application definition
@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     # Local apps
     'www',
     'users',
+    'base',
 ]
 
 MIDDLEWARE = [
@@ -141,3 +142,10 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 handler404 = "www.views.page_not_found_view"
 
 AUTH_USER_MODEL = 'users.User'
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+}

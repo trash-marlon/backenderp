@@ -5,17 +5,22 @@
 {% block container %}
 <div>
  <h3>API documentation</h3>
- <a href="/api/doc">Link Documentation</a>
-
+ <a href="/redoc/">Link Documentation Redoc</a>
+ <br/>
+ <a href="/doc/">Link Documentation Swagger</a>
 <hr/>
 
 <h3>Python Code</h3>
 <p>Create File: <code>demo.py</code></p>
-<pre>import requests
-url = "http://pyinvoice.com/atlantis/get_token"
-r = requests.get(url)
-valor = r.json()
-print(valor.get('token'))</pre>
+<pre><code>import requests
+
+url = "http://localhost:8000/api/auth/login/"
+    
+payload={'email': 'demo@demo.es',
+    'password': 'demo12'}
+    
+response = requests.request("POST", url, headers=headers, data=payload, files=files)
+print(response.text)</code></pre>
 </div>
 {% endblock container %}
 
