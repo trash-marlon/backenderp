@@ -8,7 +8,7 @@ git clone https://github.com/falconsoft3d/backenderp.git
 cd backenderp
 source env/bin/activate
 pip install -r requirements.txt
-python manage.py runserver
+python manage.py runserver --settings app.settings.dev
 ```
 
 # Django
