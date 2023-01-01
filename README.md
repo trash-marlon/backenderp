@@ -11,9 +11,17 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
-# How install with docker
+# How install with docker local
 ```
-...
+docker run -d -p 8000:8000 mfalconsoft/caprover-django
+```
+
+# How update 
+```
+docker build -t mfalconsoft/backenderp .
+docker push mfalconsoft/backenderp
+docker images
+docker run -d -p 8000:8000 mfalconsoft/caprover-django
 ```
 
 # My contact data
