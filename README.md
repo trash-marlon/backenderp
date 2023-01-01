@@ -13,7 +13,7 @@ python manage.py runserver
 
 # Django
 ```
-python manage.py startapp blog
+python manage.py startapp www
 ```
 
 # Libraries

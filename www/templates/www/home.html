@@ -1,0 +1,23 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+
+{% block container %}
+<div>
+ <h3>API documentation</h3>
+ <a href="/api/doc">Link Documentation</a>
+
+<hr/>
+
+<h3>Python Code</h3>
+<p>Create File: <code>demo.py</code></p>
+<pre>import requests
+url = "http://pyinvoice.com/atlantis/get_token"
+r = requests.get(url)
+valor = r.json()
+print(valor.get('token'))</pre>
+</div>
+{% endblock container %}
+
+
+
