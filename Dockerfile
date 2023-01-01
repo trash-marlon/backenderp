@@ -1,6 +1,9 @@
 # Pull the official base image
 FROM python:3.9.15-alpine
 
+# Update and install dependencies
+RUN apk update && apk add postgresql-dev gcc python3-dev musl-dev build-base linux-headers pcre-dev jpeg-dev zlib-dev
+
 # Set work directory
 WORKDIR /usr/src/app
 
