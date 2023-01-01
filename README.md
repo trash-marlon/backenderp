@@ -6,6 +6,8 @@
 ```
 git clone https://github.com/falconsoft3d/backenderp.git
 cd backenderp
+git checkout dev
+virtualenv env --python=python3
 source env/bin/activate
 pip install -r requirements.txt
 python manage.py runserver --settings app.settings.dev
