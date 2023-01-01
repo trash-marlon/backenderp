@@ -11,6 +11,12 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
+# Libraries
+```
+Python==3.9.15
+Django==4.1.4
+```
+
 # How install with docker local
 ```
 docker run -d -p 8000:8000 mfalconsoft/caprover-django
