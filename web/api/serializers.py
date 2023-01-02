@@ -1,1 +1,1 @@
-from .submodels.post_serializers import PostSerializer
+from .submodels.post import PostSerializer
