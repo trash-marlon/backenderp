@@ -1,0 +1,200 @@
+{
+	"info": {
+		"_postman_id": "053178fb-95f2-48c2-9ebb-6e785c54835a",
+		"name": "backendERP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14603894"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "demo",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "demo@demo.cl",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "demo1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/register/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"register",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "demo@demo.es",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "demo12",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/auth/login/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"auth",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RefreshTocken",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "refresh",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY3MjY5ODgyMCwiaWF0IjoxNjcyNjEyNDIwLCJqdGkiOiIwMTgyOTIyMzhmYjQ0ZTYxYWVkOTE3NDkyOWExZjBlMCIsInVzZXJfaWQiOjN9.VbP4iOQbsJRxb-BOLhNZDWWuHL5f7a2IsMDXfSZZzxk",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "refresh",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY3MjY5ODgyMCwiaWF0IjoxNjcyNjEyNDIwLCJqdGkiOiIwMTgyOTIyMzhmYjQ0ZTYxYWVkOTE3NDkyOWExZjBlMCIsInVzZXJfaWQiOjN9.VbP4iOQbsJRxb-BOLhNZDWWuHL5f7a2IsMDXfSZZzxk",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/auth/token/refresh/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"auth",
+						"token",
+						"refresh",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "me",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjcyNjEyNzIwLCJpYXQiOjE2NzI2MTI0MjAsImp0aSI6IjhiNTQ5MzEzNmQ4ODQyYjQ5NzQxZTNmMjNiZjFlNzZjIiwidXNlcl9pZCI6M30.1kqTsHeiCBq_CGxsuhvqiGPhBFHdnSVXDAvDp4V_QU4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/api/user/me",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user",
+						"me"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "me",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjcyNjEyMjIxLCJpYXQiOjE2NzI2MTE5MjEsImp0aSI6IjVlMWExMzhjMzNjZjRjYjg4ZDgwYTliODNiNmZhZjI1IiwidXNlcl9pZCI6M30.fh3nDDKWCe75FbV8aSZXvQmz7ZvLOuBkCSbPHkwznpQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/api/user/me",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user",
+						"me"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET CATEGORIES",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
