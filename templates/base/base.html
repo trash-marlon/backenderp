@@ -11,9 +11,40 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/pricing/">
     <link href="{% static 'base/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
     <link href="pricing.css" rel="stylesheet">
+  
+    <script type='text/javascript'>
+      //some default pre init
+      var Countly = Countly || {};
+      Countly.q = Countly.q || [];
+      
+      //provide countly initialization parameters
+      Countly.app_key = 'fa8e539dbe8857d6fb2fde390bb249df2ca45838';
+      Countly.url = 'https://countly.backenderp.com';
+      
+      Countly.q.push(['track_sessions']);
+      Countly.q.push(['track_pageview']);
+      Countly.q.push(['track_clicks']);
+      Countly.q.push(['track_scrolls']);
+      Countly.q.push(['track_errors']);
+      Countly.q.push(['track_links']);
+      Countly.q.push(['track_forms']);
+      Countly.q.push(['collect_from_forms']);
+      
+      //load countly script asynchronously
+      (function() {
+         var cly = document.createElement('script'); cly.type = 'text/javascript';
+         cly.async = true;
+         //enter url of script here
+         cly.src = 'https://countly.backenderp.com/sdk/web/countly.min.js';
+         cly.onload = function(){Countly.init()};
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(cly, s);
+      })();
+      </script>
+  
   </head>
 
   <body>
+    <noscript><img src='https://countly.backenderp.com/pixel.png?app_key=fa8e539dbe8857d6fb2fde390bb249df2ca45838&begin_session=1'/></noscript>
 
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
       <h5 class="my-0 mr-md-auto font-weight-normal">BackendERP</h5>
