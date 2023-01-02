@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Django",
+      "type": "python",
+      "request": "launch",
+      "stopOnEntry": false,
+      "python": "${workspaceRoot}/env/bin/python3.9",
+      "program": "${workspaceRoot}/manage.py",
+        "args": [
+            "runserver",
+            "8080"
+        ],
+        "debugOptions": [
+            "WaitOnAbnormalExit",
+            "WaitOnNormalExit",
+            "RedirectOutput",
+            "DjangoDebugging"
+        ],
+        "env": {
+            // "DJANGO_DB_NAME": "demo",
+            // "DJANGO_DB_USER": "user",
+            // "DJANGO_DB_PASSWORD": "password",
+            // "DJANGO_DB_HOST": "localhost",
+            // "DJANGO_DB_PORT": "5432",
+            // "DJANGO_DEBUG": "True",
+            // "DJANGO_SETTINGS_MODULE": "settings"
+        }
+    },
+  ]
+}
