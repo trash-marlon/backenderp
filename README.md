@@ -48,6 +48,22 @@ Marlon Falcón Hernández | Valencia | Spain
 » linkedin: https://linkedin.com/in/marlon-falcón-3a2aa9a4
 ```
 
+# Apps and Modules
+## Doing
+| number | short name | name             | note |
+|--------|------------|------------------|------|
+| 1      | base       | Module base      | -    |
+| 2      | users      | Module for users | -    |
+| 3      | web        | Website          | -    |
+| 4      | inv        | Inventario       | -    |
+
+## ToDo
+| number | short name | name             | note |
+|--------|------------|------------------|------|
+| -      | cot        | Contact          | -    |
+
+
+
 
 
 
