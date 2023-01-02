@@ -10,7 +10,7 @@
       "program": "${workspaceRoot}/manage.py",
         "args": [
             "runserver",
-            "8080"
+            "8000"
         ],
         "debugOptions": [
             "WaitOnAbnormalExit",
