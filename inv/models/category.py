@@ -10,10 +10,6 @@ class Category(ClassModel):
     def __str__(self):
         return self.name
 
-    def save(self):
-        self.name = self.name.upper()
-        super(Category, self).save()
-
     class Meta:
         verbose_name = 'Category'
         verbose_name_plural = 'Categories'

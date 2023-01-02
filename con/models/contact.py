@@ -1,6 +1,5 @@
 from django.db import models
 from django.db.models import SET_NULL
-from inv.models import Category
 from base.models import ClassModel
 
 # Create your models here.
@@ -27,8 +26,15 @@ class Contact(ClassModel):
         choices=COMPANY_TYPE, max_length=64, default='company')
 
     comment = models.TextField(null=True, blank=True)
+    
+    # Customer
     is_customer = models.BooleanField(default=False)
+    customer_code = models.CharField(max_length=100, null=True, blank=True)
+
+    # Supplier
     is_supplier = models.BooleanField(default=False)
+    supplier_code = models.CharField(max_length=100, null=True, blank=True)
+    
 
     def __str__(self):
         return self.name
