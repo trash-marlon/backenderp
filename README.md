@@ -50,13 +50,18 @@ Marlon Falcón Hernández | Valencia | Spain
 
 # Apps and Modules
 ## Doing
-1. base - Module base
-2. users - Module for users
-3. web - Website
-4. inv - Inventario
+| number | short name | name             | note |
+|--------|------------|------------------|------|
+| 1      | base       | Module base      | -    |
+| 2      | users      | Module for users | -    |
+| 3      | web        | Website          | -    |
+| 4      | inv        | Inventario       | -    |
 
 ## ToDo
-5. cot - contact
+| number | short name | name             | note |
+|--------|------------|------------------|------|
+| -      | cot        | Contact          | -    |
+
 
 
 
