@@ -18,6 +18,8 @@ from django.urls import path, include
 from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
 
+from inv.api.router import router_category
+
 schema_view = get_schema_view(
    openapi.Info(
       title="BackendERP API",
@@ -42,4 +44,8 @@ urlpatterns = [
 
     # API
     path('api/', include(('users.api.router', 'users'), namespace='users')),
+
+    # Others
+    path('api/', include(router_category.urls)),
+
 ]
