@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'base',
     'inv',
     'web',
+    'con',
 ]
 
 MIDDLEWARE = [
