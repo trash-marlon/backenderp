@@ -57,10 +57,12 @@ Marlon Falcón Hernández | Valencia | Spain
 | 3      | web        | Website          | -    |
 | 4      | inv        | Inventario       | -    |
 
+
 ## ToDo
 | number | short name | name             | note |
 |--------|------------|------------------|------|
-| -      | cot        | Contact          | -    |
+| -      | con        | Contact          | -    |
+| -      | inv        | Stock            | -    |
 
 
 

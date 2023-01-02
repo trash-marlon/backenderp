@@ -20,6 +20,7 @@ from drf_yasg.views import get_schema_view
 
 from inv.api.router import router_category
 from web.api.router import router_post
+from con.api.router import router_contact
 
 schema_view = get_schema_view(
    openapi.Info(
@@ -47,6 +48,7 @@ urlpatterns = [
     path('api/', include(('users.api.router', 'users'), namespace='users')),
 
     # Others
+    path('api/', include(router_contact.urls)),
     path('api/', include(router_category.urls)),
     path('api/', include(router_post.urls)),
 
