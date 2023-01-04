@@ -1,6 +1,7 @@
 from django.db import models
 from django.db.models import SET_NULL
 from base.models import ClassModel
+from ..models.country import Country
 
 # Create your models here.
 
@@ -17,6 +18,14 @@ class Contact(ClassModel):
     city = models.CharField(max_length=100, null=True, blank=True)
     # state = models.CharField(max_length=100, null=True, blank=True)
     zip = models.CharField(max_length=100, null=True, blank=True)
+    
+    country_id = models.ForeignKey(
+        Country,
+        on_delete=models.PROTECT,
+        verbose_name=('Country'),
+        null=True,
+        blank=True
+    )
 
     email = models.EmailField(null=True, blank=True)
     phone = models.CharField(max_length=20, null=True, blank=True)

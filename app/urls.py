@@ -20,6 +20,7 @@ from drf_yasg.views import get_schema_view
 
 from inv.api.router import router_category
 from web.api.router import router_post
+
 # con
 from con.api.router import router_contact
 from con.api.router import router_country
