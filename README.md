@@ -66,12 +66,13 @@ Marlon Falcón Hernández | Valencia | Spain
 
 
 # con (Contact)
-[-]: contact
-[-]: state
-[-]: country
+- [ ] contact
+- [ ] state
+- [ ] country
 
 # inv (Stock)
-[-]: contact
+- [ ] contact
+- [ ] product
 
 
 
