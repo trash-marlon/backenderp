@@ -65,6 +65,15 @@ Marlon Falcón Hernández | Valencia | Spain
 | -      | inv        | Stock            | -    |
 
 
+# con (Contact)
+[-]: contact
+[-]: state
+[-]: country
+
+# inv (Stock)
+[-]: contact
+
+
 
 
 
