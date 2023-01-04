@@ -18,11 +18,14 @@ from django.urls import path, include
 from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
 
+# inv
 from inv.api.router import router_category
+
+# web
 from web.api.router import router_post
+
 # con
-from con.api.router import router_contact
-from con.api.router import router_country
+from con.api.router import router_contact, router_state, router_country
 
 schema_view = get_schema_view(
    openapi.Info(
@@ -49,9 +52,11 @@ urlpatterns = [
     # API
     path('api/', include(('users.api.router', 'users'), namespace='users')),
 
-    # Others
+    # con
     path('api/', include(router_contact.urls)),
     path('api/', include(router_country.urls)),
+    path('api/', include(router_state.urls)),
+
 
     path('api/', include(router_category.urls)),
     path('api/', include(router_post.urls)),

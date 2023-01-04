@@ -55,14 +55,23 @@ Marlon Falcón Hernández | Valencia | Spain
 | 1      | base       | Module base      | -    |
 | 2      | users      | Module for users | -    |
 | 3      | web        | Website          | -    |
-| 4      | inv        | Inventario       | -    |
+| 4      | inv        | Stock            | -    |
+| 5      | con        | Contact          | -    |
 
 
 ## ToDo
 | number | short name | name             | note |
 |--------|------------|------------------|------|
-| -      | con        | Contact          | -    |
 | -      | inv        | Stock            | -    |
+
+
+# con (Contact)
+[-]: contact
+[-]: state
+[-]: country
+
+# inv (Stock)
+[-]: contact
 
 
 
