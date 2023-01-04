@@ -76,7 +76,13 @@ Marlon Falcón Hernández | Valencia | Spain
 - [ ] uom
 
 # sal (Sale)
-- [ ] saleorder
+- [ ] saleOrder
+
+
+# pur (Purchase)
+- [ ] purchaseOrder
+
+# conf (Configuration)
 
 
 
