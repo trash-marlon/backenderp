@@ -19,7 +19,7 @@ from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
 
 # inv
-from inv.api.router import router_category, router_product
+from inv.api.router import router_category, router_product, router_uom
 
 
 # web
@@ -64,6 +64,7 @@ urlpatterns = [
      # inv
     path('api/', include(router_category.urls)),
     path('api/', include(router_product.urls)),
+    path('api/', include(router_uom.urls)),
     
     # www
     path('api/', include(router_post.urls)),

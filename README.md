@@ -73,6 +73,7 @@ Marlon Falcón Hernández | Valencia | Spain
 # inv (Stock)
 - [ ] contact
 - [ ] product
+- [ ] uom
 
 # sal (Sale)
 - [ ] saleorder
