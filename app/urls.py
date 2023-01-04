@@ -19,13 +19,17 @@ from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
 
 # inv
-from inv.api.router import router_category
+from inv.api.router import router_category, router_product
+
 
 # web
 from web.api.router import router_post
 
 # con
 from con.api.router import router_contact, router_state, router_country
+
+# sal
+from sal.api.router import router_saleorder
 
 schema_view = get_schema_view(
    openapi.Info(
@@ -57,9 +61,15 @@ urlpatterns = [
     path('api/', include(router_country.urls)),
     path('api/', include(router_state.urls)),
 
-
+     # inv
     path('api/', include(router_category.urls)),
+    path('api/', include(router_product.urls)),
+    
+    # www
     path('api/', include(router_post.urls)),
+
+    # sal
+    path('api/', include(router_saleorder.urls)),
     
 
 ]

@@ -28,7 +28,7 @@ class Contact(ClassModel):
         blank=True
     )
 
-    parent_id = models.ForeignKey(
+    state_id = models.ForeignKey(
         State,
         on_delete=models.PROTECT,
         verbose_name=('State'),
