@@ -1,4 +1,6 @@
 # Backend generic for ERP or Ecommerce
+This is a project in development, is not ready for production.
+
 ## Website: [backenderp.com](https://backenderp.com)
 
 # How install
@@ -48,16 +50,7 @@ Marlon Falcón Hernández | Valencia | Spain
 ```
 
 # Apps and Modules
-## Doing
-| number | short name | name             | note |
-|--------|------------|------------------|------|
-| 1      | base       | Module base      | -    |
-| 2      | users      | Module for users | -    |
-| 3      | web        | Website          | -    |
-| 4      | inv        | Stock            | -    |
-| 5      | con        | Contact          | -    |
-| 6      | acc        | Account          | -    |
-| 7      | www        | Simple Web       | -    |
+This is the list of apps and modules that are in the project.
 
 # con (Contact)
 App to manage the contacts.
