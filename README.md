@@ -73,30 +73,70 @@ App to manage the stock.
 - [x] category
 - [ ] warehouse
 - [ ] location
+- [ ] Brand
 
 # sal (Sale)
 App to manage the sales.
 - [x] saleOrder
+- [ ] saleOrderLine
+- [ ] report
 
 # pur (Purchase)
 App to manage the purchases.
 - [x] purchaseOrder
+- [ ] purchaseOrderLine
+- [ ] report
 
 # acc (Account)
 App to manage the account.
 - [x] tax
 - [x] currency
 - [ ] journal
+- [ ] Account Account
 
 # conf (Configuration)
 App to manage the configuration.
 - [x] configuration
 - [x] cron
+- [ ] Log
+- [ ] Files
+- [ ] Backup
+- [ ] Note
+- [ ] Parameter
+- [ ] Email
+- [ ] Sequence
+- [ ] language
+
+# crm (Customer Relationship Management)
+App to manage the crm.
+- [ ] lead
+- [ ] opportunity
+
+# mkt (Marketing)
+App to manage the marketing.
+- [ ] Campaign
+
+# pry (Project)
+App to manage the project.
+- [ ] Project
+- [ ] Task
+
+# hr (Human Resources)
+App to manage the human resources.
+- [ ] employee
+- [ ] department
+- [ ] job
+- [ ] contract
 
 # web
 App to manage the web.
 - [x] post
 - [ ] comment
+
+# Comunication
+App to manage the comunication.
+- [ ] message
+- [ ] channel
 
 
 
