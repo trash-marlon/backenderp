@@ -60,11 +60,13 @@ Marlon Falcón Hernández | Valencia | Spain
 | 7      | www        | Simple Web       | -    |
 
 # con (Contact)
+App to manage the contacts.
 - [x] contact
 - [x] state
 - [x] country
 
 # inv (Stock)
+App to manage the stock.
 - [x] contact
 - [x] product
 - [x] uom
@@ -73,20 +75,26 @@ Marlon Falcón Hernández | Valencia | Spain
 - [ ] location
 
 # sal (Sale)
+App to manage the sales.
 - [x] saleOrder
 
 # pur (Purchase)
+App to manage the purchases.
 - [x] purchaseOrder
 
 # acc (Account)
+App to manage the account.
 - [x] tax
 - [x] currency
+- [ ] journal
 
 # conf (Configuration)
+App to manage the configuration.
 - [x] configuration
 - [x] cron
 
 # web
+App to manage the web.
 - [x] post
 - [ ] comment
 
