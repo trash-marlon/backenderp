@@ -105,7 +105,7 @@ App to manage the configuration.
 - [x] Parameter
 - [ ] Email
 - [ ] Sequence
-- [ ] language
+- [x] language
 - [ ] EmailLog
 
 # crm (Customer Relationship Management)

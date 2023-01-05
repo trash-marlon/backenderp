@@ -1,5 +1,5 @@
 from rest_framework.routers import DefaultRouter
-from conf.api.views import ConfigurationViewSet, CronViewSet, LogViewSet, ParameterViewSet, NoteViewSet
+from conf.api.views import ConfigurationViewSet, CronViewSet, LogViewSet, ParameterViewSet, NoteViewSet, LanguageViewSet
 
 # Configuration
 router_configuration = DefaultRouter()
@@ -21,3 +21,7 @@ router_parameter.register(prefix='parameter', viewset=ParameterViewSet, basename
 # Note
 router_note = DefaultRouter()
 router_note.register(prefix='note', viewset=NoteViewSet, basename='notes')
+
+# Language
+router_language = DefaultRouter()
+router_language.register(prefix='language', viewset=LanguageViewSet, basename='languages')
