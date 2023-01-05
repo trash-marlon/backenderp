@@ -57,13 +57,7 @@ Marlon Falcón Hernández | Valencia | Spain
 | 3      | web        | Website          | -    |
 | 4      | inv        | Stock            | -    |
 | 5      | con        | Contact          | -    |
-
-
-## ToDo
-| number | short name | name             | note |
-|--------|------------|------------------|------|
-| -      | inv        | Stock            | -    |
-
+| 6      | acc        | Account          | -    |
 
 # con (Contact)
 - [ ] contact
@@ -78,9 +72,11 @@ Marlon Falcón Hernández | Valencia | Spain
 # sal (Sale)
 - [ ] saleOrder
 
-
 # pur (Purchase)
 - [ ] purchaseOrder
+
+# acc (Account)
+- [ ] tax
 
 # conf (Configuration)
 - [ ] configuration

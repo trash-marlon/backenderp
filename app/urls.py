@@ -37,6 +37,9 @@ from pur.api.router import router_purchaseorder
 # conf
 from conf.api.router import router_configuration
 
+# acc
+from acc.api.router import router_tax
+
 schema_view = get_schema_view(
    openapi.Info(
       title="BackendERP API",
@@ -83,4 +86,7 @@ urlpatterns = [
 
     # conf
     path('api/', include(router_configuration.urls)),
+
+    # acc
+    path('api/', include(router_tax.urls)),
 ]
