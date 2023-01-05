@@ -24,14 +24,20 @@ class ConfigurationViewSet(ModelViewSet):
             # 1. Load country from data/country.csv
             csv =  open('con/data/country.csv', 'r')
             
+            cont = 0    
             for line in csv:
+                # skip first line becourse is header
+                if cont == 0:
+                    cont = 1
+                    continue
+                else:
+                    cont += 1
                 country = Country()
                 country.name =  line.split(',')[0]
                 country.code =  line.split(',')[1]
                 country.uc_id = 1
                 country.save()
             csv.close()
-
             conf.save()
     
     # call load data
