@@ -28,6 +28,6 @@ class Configuration(ClassModel):
         return self.name
 
     class Meta:
-        verbose_name = 'Sale Order'
-        verbose_name_plural = 'Sale Orders'
+        verbose_name = 'Configuration'
+        verbose_name_plural = 'Configurations'
         ordering = ['name']
