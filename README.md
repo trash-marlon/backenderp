@@ -1,4 +1,6 @@
 # Backend generic for ERP or Ecommerce
+This is a project in development, is not ready for production. In this project only is the backend, the frontend is in another project. [frontenderp.com](https://frontenderp.com)
+
 ## Website: [backenderp.com](https://backenderp.com)
 
 # How install
@@ -47,17 +49,25 @@ Marlon Falcón Hernández | Valencia | Spain
 » linkedin: https://linkedin.com/in/marlon-falcón-3a2aa9a4
 ```
 
+# Plan of the project
+This is the plan of the project.
+1. The user can register and change the password.
+2. The user can login and logout.
+3. The user can change the language.
+4. The user can change the company.
+5. The user can change the theme.
+6. The user can sale one product.
+7. The user can sale many products.
+8. The user can sale from the website.
+9. The user can sale from the website course.
+10. Create the invoice.
+11. Create the payment.
+12. Create the picking.
+13. ...
+
+
 # Apps and Modules
-## Doing
-| number | short name | name             | note |
-|--------|------------|------------------|------|
-| 1      | base       | Module base      | -    |
-| 2      | users      | Module for users | -    |
-| 3      | web        | Website          | -    |
-| 4      | inv        | Stock            | -    |
-| 5      | con        | Contact          | -    |
-| 6      | acc        | Account          | -    |
-| 7      | www        | Simple Web       | -    |
+This is the list of apps and modules that are in the project.
 
 # con (Contact)
 App to manage the contacts.
@@ -93,19 +103,25 @@ App to manage the account.
 - [x] currency
 - [ ] journal
 - [ ] Account Account
+- [ ] Account Invoice
+- [ ] Account Move
+- [ ] Account Analytic
+- [ ] Payment
 
 # conf (Configuration)
 App to manage the configuration.
 - [x] configuration
 - [x] cron
-- [ ] Log
+- [x] Log
 - [ ] Files
 - [ ] Backup
-- [ ] Note
-- [ ] Parameter
+- [x] Note
+- [x] Parameter
 - [ ] Email
 - [ ] Sequence
-- [ ] language
+- [x] language
+- [ ] EmailLog
+- [ ] Theme
 
 # crm (Customer Relationship Management)
 App to manage the crm.
@@ -137,6 +153,12 @@ App to manage the web.
 App to manage the comunication.
 - [ ] message
 - [ ] channel
+
+# elr (eLearning)
+App to manage the eLearning.
+- [ ] course
+- [ ] lesson
+- [ ] quiz
 
 
 
