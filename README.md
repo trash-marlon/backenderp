@@ -1,5 +1,5 @@
 # Backend generic for ERP or Ecommerce
-This is a project in development, is not ready for production.
+This is a project in development, is not ready for production. In this project only is the backend, the frontend is in another project. [frontenderp.com](https://frontenderp.com)
 
 ## Website: [backenderp.com](https://backenderp.com)
 
@@ -48,6 +48,23 @@ Marlon Falcón Hernández | Valencia | Spain
 » Github: https://github.com/falconsoft3d
 » linkedin: https://linkedin.com/in/marlon-falcón-3a2aa9a4
 ```
+
+# Plan of the project
+This is the plan of the project.
+1. The user can register and change the password.
+2. The user can login and logout.
+3. The user can change the language.
+4. The user can change the company.
+5. The user can change the theme.
+6. The user can sale one product.
+7. The user can sale many products.
+8. The user can sale from the website.
+9. The user can sale from the website course.
+10. Create the invoice.
+11. Create the payment.
+12. Create the picking.
+13. ...
+
 
 # Apps and Modules
 This is the list of apps and modules that are in the project.
@@ -104,6 +121,7 @@ App to manage the configuration.
 - [ ] Sequence
 - [x] language
 - [ ] EmailLog
+- [ ] Theme
 
 # crm (Customer Relationship Management)
 App to manage the crm.
