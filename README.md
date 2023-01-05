@@ -58,17 +58,18 @@ Marlon Falcón Hernández | Valencia | Spain
 | 4      | inv        | Stock            | -    |
 | 5      | con        | Contact          | -    |
 | 6      | acc        | Account          | -    |
-| 7      | www        | Website Full     | -    |
+| 7      | www        | Simple Web       | -    |
 
 # con (Contact)
-- [ ] contact
-- [ ] state
-- [ ] country
+- [x] contact
+- [x] state
+- [x] country
 
 # inv (Stock)
 - [x] contact
 - [x] product
 - [x] uom
+- [x] category
 - [ ] warehouse
 - [ ] location
 
@@ -85,6 +86,10 @@ Marlon Falcón Hernández | Valencia | Spain
 # conf (Configuration)
 - [x] configuration
 - [x] cron
+
+# web
+- [x] post
+- [ ] comment
 
 
 
