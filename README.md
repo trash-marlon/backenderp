@@ -92,6 +92,7 @@ App to manage the account.
 - [x] tax
 - [x] currency
 - [ ] journal
+- [ ] Account Account
 
 # conf (Configuration)
 App to manage the configuration.
@@ -120,10 +121,22 @@ App to manage the project.
 - [ ] Project
 - [ ] Task
 
+# hr (Human Resources)
+App to manage the human resources.
+- [ ] employee
+- [ ] department
+- [ ] job
+- [ ] contract
+
 # web
 App to manage the web.
 - [x] post
 - [ ] comment
+
+# Comunication
+App to manage the comunication.
+- [ ] message
+- [ ] channel
 
 
 
