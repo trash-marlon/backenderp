@@ -73,6 +73,7 @@ App to manage the stock.
 - [x] category
 - [ ] warehouse
 - [ ] location
+- [ ] Brand
 
 # sal (Sale)
 App to manage the sales.
@@ -92,6 +93,12 @@ App to manage the account.
 App to manage the configuration.
 - [x] configuration
 - [x] cron
+- [ ] Log
+- [ ] Files
+- [ ] Backup
+- [ ] Note
+- [ ] Parameter
+- [ ] Email
 
 # web
 App to manage the web.
