@@ -101,11 +101,12 @@ App to manage the configuration.
 - [x] Log
 - [ ] Files
 - [ ] Backup
-- [ ] Note
-- [ ] Parameter
+- [x] Note
+- [x] Parameter
 - [ ] Email
 - [ ] Sequence
 - [ ] language
+- [ ] EmailLog
 
 # crm (Customer Relationship Management)
 App to manage the crm.
