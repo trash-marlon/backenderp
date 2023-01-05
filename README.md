@@ -93,6 +93,10 @@ App to manage the account.
 - [x] currency
 - [ ] journal
 - [ ] Account Account
+- [ ] Account Invoice
+- [ ] Account Move
+- [ ] Account Analytic
+- [ ] Payment
 
 # conf (Configuration)
 App to manage the configuration.
