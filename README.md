@@ -78,10 +78,14 @@ App to manage the stock.
 # sal (Sale)
 App to manage the sales.
 - [x] saleOrder
+- [ ] saleOrderLine
+- [ ] report
 
 # pur (Purchase)
 App to manage the purchases.
 - [x] purchaseOrder
+- [ ] purchaseOrderLine
+- [ ] report
 
 # acc (Account)
 App to manage the account.
