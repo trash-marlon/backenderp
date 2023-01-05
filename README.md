@@ -100,9 +100,21 @@ App to manage the configuration.
 - [ ] Parameter
 - [ ] Email
 - [ ] Sequence
+- [ ] language
+
+# crm (Customer Relationship Management)
+App to manage the crm.
+- [ ] lead
+- [ ] opportunity
 
 # mkt (Marketing)
+App to manage the marketing.
 - [ ] Campaign
+
+# pry (Project)
+App to manage the project.
+- [ ] Project
+- [ ] Task
 
 # web
 App to manage the web.
