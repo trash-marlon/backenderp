@@ -35,10 +35,11 @@ from sal.api.router import router_saleorder
 from pur.api.router import router_purchaseorder
 
 # conf
-from conf.api.router import router_configuration
+from conf.api.router import router_configuration, router_cron
 
 # acc
-from acc.api.router import router_tax
+from acc.api.router import router_tax, router_currency
+
 
 schema_view = get_schema_view(
    openapi.Info(
@@ -86,7 +87,9 @@ urlpatterns = [
 
     # conf
     path('api/', include(router_configuration.urls)),
+    path('api/', include(router_cron.urls)),
 
     # acc
     path('api/', include(router_tax.urls)),
+    path('api/', include(router_currency.urls)),
 ]

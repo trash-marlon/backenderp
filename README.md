@@ -65,21 +65,25 @@ Marlon Falcón Hernández | Valencia | Spain
 - [ ] country
 
 # inv (Stock)
-- [ ] contact
-- [ ] product
-- [ ] uom
+- [x] contact
+- [x] product
+- [x] uom
+- [ ] warehouse
+- [ ] location
 
 # sal (Sale)
-- [ ] saleOrder
+- [x] saleOrder
 
 # pur (Purchase)
-- [ ] purchaseOrder
+- [x] purchaseOrder
 
 # acc (Account)
-- [ ] tax
+- [x] tax
+- [x] currency
 
 # conf (Configuration)
-- [ ] configuration
+- [x] configuration
+- [x] cron
 
 
 
