@@ -34,6 +34,9 @@ from sal.api.router import router_saleorder
 # pur
 from pur.api.router import router_purchaseorder
 
+# conf
+from conf.api.router import router_configuration
+
 schema_view = get_schema_view(
    openapi.Info(
       title="BackendERP API",
@@ -77,4 +80,7 @@ urlpatterns = [
 
     # pur
     path('api/', include(router_purchaseorder.urls)),
+
+    # conf
+    path('api/', include(router_configuration.urls)),
 ]
