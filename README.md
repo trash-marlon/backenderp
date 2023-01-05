@@ -99,6 +99,10 @@ App to manage the configuration.
 - [ ] Note
 - [ ] Parameter
 - [ ] Email
+- [ ] Sequence
+
+# mkt (Marketing)
+- [ ] Campaign
 
 # web
 App to manage the web.
