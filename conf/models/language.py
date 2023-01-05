@@ -10,3 +10,6 @@ class Language(ClassModel):
     class Meta:
         verbose_name = "Language"
         verbose_name_plural = "Languages"
+
+    def __str__(self):
+        return self.name

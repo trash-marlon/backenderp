@@ -139,6 +139,12 @@ App to manage the comunication.
 - [ ] message
 - [ ] channel
 
+# elr (eLearning)
+App to manage the eLearning.
+- [ ] course
+- [ ] lesson
+- [ ] quiz
+
 
 
 

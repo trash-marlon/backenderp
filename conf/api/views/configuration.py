@@ -1,7 +1,7 @@
 from rest_framework.viewsets import ModelViewSet
 from conf.api.serializers import ConfigurationSerializer
 from rest_framework.permissions import IsAuthenticated
-from conf.models import Configuration
+from conf.models import Configuration, Language
 # Load Models
 from con.models.contact import Country
 
@@ -38,6 +38,27 @@ class ConfigurationViewSet(ModelViewSet):
                 country.uc_id = 1
                 country.save()
             csv.close()
+            
+
+            # 2. Load Language from data/language.csv
+            csv =  open('conf/data/language.csv', 'r')
+            cont = 0    
+            for line in csv:
+                # skip first line becourse is header
+                if cont == 0:
+                    cont = 1
+                    continue
+                else:
+                    cont += 1
+                language = Language()
+                language.name =  line
+                language.uc_id = 1
+                language.save()
+            csv.close()
+
+
+
+            # Save configuration
             conf.save()
     
     # call load data
