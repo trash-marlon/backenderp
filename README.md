@@ -98,7 +98,7 @@ App to manage the account.
 App to manage the configuration.
 - [x] configuration
 - [x] cron
-- [ ] Log
+- [x] Log
 - [ ] Files
 - [ ] Backup
 - [ ] Note

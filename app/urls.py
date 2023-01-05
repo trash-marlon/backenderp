@@ -35,7 +35,7 @@ from sal.api.router import router_saleorder
 from pur.api.router import router_purchaseorder
 
 # conf
-from conf.api.router import router_configuration, router_cron
+from conf.api.router import router_configuration, router_cron, router_log
 
 # acc
 from acc.api.router import router_tax, router_currency
@@ -88,6 +88,7 @@ urlpatterns = [
     # conf
     path('api/', include(router_configuration.urls)),
     path('api/', include(router_cron.urls)),
+    path('api/', include(router_log.urls)),
 
     # acc
     path('api/', include(router_tax.urls)),
