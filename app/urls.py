@@ -29,7 +29,7 @@ from web.api.router import router_post
 from con.api.router import router_contact, router_state, router_country
 
 # sal
-from sal.api.router import router_saleorder
+from sal.api.router import router_saleorder, router_saleorderline
 
 # pur
 from pur.api.router import router_purchaseorder
@@ -81,6 +81,7 @@ urlpatterns = [
 
     # sal
     path('api/', include(router_saleorder.urls)),
+    path('api/', include(router_saleorderline.urls)),
 
     # pur
     path('api/', include(router_purchaseorder.urls)),

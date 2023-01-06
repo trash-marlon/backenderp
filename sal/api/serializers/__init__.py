@@ -1,1 +1,2 @@
 from .saleorder import SaleOrderSerializer
+from .saleorderline import SaleOrderLineSerializer
