@@ -24,6 +24,7 @@ class SaleOrder(ClassModel):
 
     partner_id = models.ForeignKey(
         Contact,
+        related_name='partner',
         on_delete=models.PROTECT,
         verbose_name=('Partner'),
         null=True,

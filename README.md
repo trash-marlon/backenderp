@@ -146,6 +146,8 @@ App to manage the human resources.
 
 # web
 App to manage the web.
+- [ ] website
+- [ ] page
 - [x] post
 - [ ] comment
 
