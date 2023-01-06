@@ -90,8 +90,9 @@ App to manage the stock.
 - [x] uom
 - [x] category
 - [x] warehouse
-- [ ] location
-- [ ] brand
+- [x] location
+- [x] brand
+- [ ] Model
 
 # sal (Sale)
 App to manage the sales.
