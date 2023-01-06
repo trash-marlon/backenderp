@@ -150,6 +150,9 @@ App to manage the web.
 - [ ] page
 - [x] post
 - [ ] comment
+- [ ] rating
+- [ ] menu
+- [ ] slider
 
 # Comunication
 App to manage the comunication.
