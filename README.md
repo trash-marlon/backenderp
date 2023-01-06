@@ -93,6 +93,8 @@ App to manage the stock.
 - [x] location
 - [x] brand
 - [x] model
+- [ ] picking
+- [ ] pickingLine 
 
 # sal (Sale)
 App to manage the sales.
@@ -136,7 +138,7 @@ App to manage the configuration.
 # crm (Customer Relationship Management)
 App to manage the crm.
 - [ ] lead
-- [ ] opportunity
+- [ ] meet
 
 # mkt (Marketing)
 App to manage the marketing.
