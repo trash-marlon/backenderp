@@ -92,7 +92,7 @@ App to manage the stock.
 - [x] warehouse
 - [x] location
 - [x] brand
-- [ ] Model
+- [x] model
 
 # sal (Sale)
 App to manage the sales.
