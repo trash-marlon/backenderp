@@ -6,6 +6,10 @@ class Warehouse(ClassModel):
     unique=True,
     help_text='Name of Warehouse')
 
+    code = models.CharField(max_length=3,
+    unique=True,
+    help_text='Code')
+
     def __str__(self):
         return self.name
 
