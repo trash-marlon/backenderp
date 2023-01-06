@@ -172,9 +172,8 @@ App to manage the comunication.
 
 # elr (eLearning)
 App to manage the eLearning.
-- [ ] course
+- [x] course
 - [ ] lesson
-- [ ] quiz
 
 
 

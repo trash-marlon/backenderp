@@ -25,11 +25,11 @@ class ClassModel(models.Model):
     um = models.IntegerField(blank=True, null=True)
     
 
-    def save(self, *args, **kwargs):
-        if not self.id:
-            self.uc = self.get_default_uc()
-            self.um = self.get_default_um()
-        return super(ClassModel, self).save(*args, **kwargs)
+    # def save(self, *args, **kwargs):
+    #     if not self.id:
+    #         self.uc = self.get_default_uc()
+    #         self.um = self.get_default_um()
+    #     return super(ClassModel, self).save(*args, **kwargs)
 
     class Meta:
         abstract = True
