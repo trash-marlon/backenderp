@@ -89,7 +89,7 @@ App to manage the stock.
 - [x] product
 - [x] uom
 - [x] category
-- [ ] warehouse
+- [x] warehouse
 - [ ] location
 - [ ] Brand
 

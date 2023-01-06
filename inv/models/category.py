@@ -7,6 +7,19 @@ class Category(ClassModel):
     unique=True,
     help_text='Name of category')
 
+    for_website = models.BooleanField(default=False,
+    help_text='Show on website')
+
+    for_stock = models.BooleanField(default=True,
+    help_text='Show on stock')
+
+    parent_id = models.ForeignKey('self',  
+    on_delete=models.PROTECT,
+    verbose_name=('Parent'),
+    null=True,
+    blank=True,
+    related_name='children')
+
     def __str__(self):
         return self.name
 
