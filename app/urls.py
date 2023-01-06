@@ -29,16 +29,16 @@ from web.api.router import router_post
 from con.api.router import router_contact, router_state, router_country
 
 # sal
-from sal.api.router import router_saleorder
+from sal.api.router import router_saleorder, router_saleorderline
 
 # pur
 from pur.api.router import router_purchaseorder
 
 # conf
-from conf.api.router import router_configuration, router_cron, router_log, router_parameter, router_note, router_language
+from conf.api.router import router_configuration, router_cron, router_log, router_parameter, router_note, router_language, router_sequence
 
 # acc
-from acc.api.router import router_tax, router_currency
+from acc.api.router import router_tax, router_currency, router_journal
 
 
 schema_view = get_schema_view(
@@ -81,6 +81,7 @@ urlpatterns = [
 
     # sal
     path('api/', include(router_saleorder.urls)),
+    path('api/', include(router_saleorderline.urls)),
 
     # pur
     path('api/', include(router_purchaseorder.urls)),
@@ -92,8 +93,10 @@ urlpatterns = [
     path('api/', include(router_parameter.urls)),
     path('api/', include(router_note.urls)),
     path('api/', include(router_language.urls)),
+    path('api/', include(router_sequence.urls)),
 
     # acc
     path('api/', include(router_tax.urls)),
     path('api/', include(router_currency.urls)),
+    path('api/', include(router_journal.urls)),
 ]

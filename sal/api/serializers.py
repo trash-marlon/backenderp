@@ -1,1 +1,2 @@
 from .submodels.saleorder import SaleOrderSerializer
+from .submodels.saleorderline import SaleOrderLineSerializer

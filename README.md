@@ -15,6 +15,14 @@ python manage.py runserver
 python manage.py runserver --settings app.settings.dev
 ```
 
+# How use
+```
+http://localhost:8000/doc/
+http://localhost:8000/admin/
+http://localhost:8000/redoc/
+```
+
+
 # Django
 ```
 python manage.py startapp www
@@ -88,7 +96,7 @@ App to manage the stock.
 # sal (Sale)
 App to manage the sales.
 - [x] saleOrder
-- [ ] saleOrderLine
+- [x] saleOrderLine
 - [ ] report
 
 # pur (Purchase)
@@ -118,7 +126,8 @@ App to manage the configuration.
 - [x] Note
 - [x] Parameter
 - [ ] Email
-- [ ] Sequence
+- [ ] EmailServer
+- [x] Sequence
 - [x] language
 - [ ] EmailLog
 - [ ] Theme
@@ -146,13 +155,20 @@ App to manage the human resources.
 
 # web
 App to manage the web.
+- [ ] website
+- [ ] page
 - [x] post
 - [ ] comment
+- [ ] rating
+- [ ] menu
+- [ ] slider
+- [ ] faq
 
 # Comunication
 App to manage the comunication.
 - [ ] message
 - [ ] channel
+- [ ] chat
 
 # elr (eLearning)
 App to manage the eLearning.

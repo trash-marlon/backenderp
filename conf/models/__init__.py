@@ -4,3 +4,4 @@ from .log import Log
 from .parameter import Parameter
 from .note import Note
 from .language import Language
+from .sequence import Sequence
