@@ -168,6 +168,7 @@ App to manage the web.
 App to manage the comunication.
 - [ ] message
 - [ ] channel
+- [ ] chat
 
 # elr (eLearning)
 App to manage the eLearning.
