@@ -44,7 +44,7 @@ from acc.api.router import router_tax, router_currency, router_journal
 from elr.api.router import router_course, router_lesson
 
 # pry
-from pry.api.router import router_project
+from pry.api.router import router_project, router_task
 
 
 schema_view = get_schema_view(
@@ -112,5 +112,6 @@ urlpatterns = [
 
     # pry
     path('api/', include(router_project.urls)),
+    path('api/', include(router_task.urls)),
 
 ]

@@ -1,7 +1,11 @@
 
 from rest_framework.routers import DefaultRouter
-from pry.api.views import ProjectViewSet
+from pry.api.views import ProjectViewSet, TaskViewSet
 
-# Category
+# Project
 router_project = DefaultRouter()
 router_project.register(prefix='project', viewset=ProjectViewSet, basename='project')
+
+# Task
+router_task = DefaultRouter()
+router_task.register(prefix='task', viewset=TaskViewSet, basename='task')
