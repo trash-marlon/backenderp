@@ -143,8 +143,9 @@ App to manage the marketing.
 
 # pry (Project)
 App to manage the project.
-- [ ] Project
-- [ ] Task
+- [x] Project
+- [x] Task
+- [ ] Ticket
 
 # hr (Human Resources)
 App to manage the human resources.
