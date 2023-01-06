@@ -109,7 +109,7 @@ App to manage the purchases.
 App to manage the account.
 - [x] tax
 - [x] currency
-- [ ] journal
+- [x] journal
 - [ ] Account Account
 - [ ] Account Invoice
 - [ ] Account Move
