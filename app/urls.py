@@ -38,7 +38,7 @@ from pur.api.router import router_purchaseorder
 from conf.api.router import router_configuration, router_cron, router_log, router_parameter, router_note, router_language
 
 # acc
-from acc.api.router import router_tax, router_currency
+from acc.api.router import router_tax, router_currency, router_journal
 
 
 schema_view = get_schema_view(
@@ -96,4 +96,5 @@ urlpatterns = [
     # acc
     path('api/', include(router_tax.urls)),
     path('api/', include(router_currency.urls)),
+    path('api/', include(router_journal.urls)),
 ]
