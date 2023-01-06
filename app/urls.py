@@ -46,6 +46,8 @@ from elr.api.router import router_course, router_lesson
 # pry
 from pry.api.router import router_project, router_task
 
+# crm
+from crm.api.router import router_lead
 
 schema_view = get_schema_view(
    openapi.Info(
@@ -117,5 +119,8 @@ urlpatterns = [
     # pry
     path('api/', include(router_project.urls)),
     path('api/', include(router_task.urls)),
+
+    # crm
+    path('api/', include(router_lead.urls)),
 
 ]
