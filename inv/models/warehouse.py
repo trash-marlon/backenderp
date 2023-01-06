@@ -8,6 +8,8 @@ class Warehouse(ClassModel):
 
     code = models.CharField(max_length=3,
     unique=True,
+    null=True,
+    blank=True,
     help_text='Code')
 
     def __str__(self):

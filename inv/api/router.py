@@ -1,5 +1,5 @@
 from rest_framework.routers import DefaultRouter
-from inv.api.views import CategoryViewSet, ProductViewSet, UomViewSet, WarehouseViewSet
+from inv.api.views import CategoryViewSet, ProductViewSet, UomViewSet, WarehouseViewSet, LocationViewSet
 
 # Category
 router_category = DefaultRouter()
@@ -16,3 +16,7 @@ router_uom.register(prefix='uom', viewset=UomViewSet, basename='uoms')
 # Warehouse
 router_warehouse = DefaultRouter()
 router_warehouse.register(prefix='warehouse', viewset=WarehouseViewSet, basename='warehouses')
+
+# Location
+router_location = DefaultRouter()
+router_location.register(prefix='location', viewset=LocationViewSet, basename='locations')
