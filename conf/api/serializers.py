@@ -4,3 +4,4 @@ from .submodels.log import LogSerializer
 from .submodels.parameter import ParameterSerializer
 from .submodels.note import NoteSerializer
 from .submodels.language import LanguageSerializer
+from .submodels.sequence import SequenceSerializer

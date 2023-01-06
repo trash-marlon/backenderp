@@ -96,7 +96,7 @@ App to manage the stock.
 # sal (Sale)
 App to manage the sales.
 - [x] saleOrder
-- [ ] saleOrderLine
+- [x] saleOrderLine
 - [ ] report
 
 # pur (Purchase)
@@ -126,7 +126,8 @@ App to manage the configuration.
 - [x] Note
 - [x] Parameter
 - [ ] Email
-- [ ] Sequence
+- [ ] EmailServer
+- [x] Sequence
 - [x] language
 - [ ] EmailLog
 - [ ] Theme
@@ -161,6 +162,7 @@ App to manage the web.
 - [ ] rating
 - [ ] menu
 - [ ] slider
+- [ ] faq
 
 # Comunication
 App to manage the comunication.
