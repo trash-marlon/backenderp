@@ -15,6 +15,14 @@ python manage.py runserver
 python manage.py runserver --settings app.settings.dev
 ```
 
+# How use
+```
+http://localhost:8000/doc/
+http://localhost:8000/admin/
+http://localhost:8000/redoc/
+```
+
+
 # Django
 ```
 python manage.py startapp www
