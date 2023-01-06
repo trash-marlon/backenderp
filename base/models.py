@@ -7,6 +7,8 @@ class ClassModel(models.Model):
     fc = models.DateTimeField(auto_now_add=True)
     fm = models.DateTimeField(auto_now=True)
 
+
+    """
     @classmethod
     def get_default_uc(cls):
         return User.objects.get(username='admin')
@@ -17,13 +19,17 @@ class ClassModel(models.Model):
     
     uc = models.ForeignKey(User, on_delete=models.CASCADE, default=get_default_uc )
     um = models.IntegerField(blank=True, null=True, default=1)
+    """
+
+    uc = models.ForeignKey(User, on_delete=models.CASCADE )
+    um = models.IntegerField(blank=True, null=True)
     
 
-    def save(self, *args, **kwargs):
-        if not self.id:
-            self.uc = self.get_default_uc()
-            self.um = self.get_default_um()
-        return super(ClassModel, self).save(*args, **kwargs)
+    # def save(self, *args, **kwargs):
+    #     if not self.id:
+    #         self.uc = self.get_default_uc()
+    #         self.um = self.get_default_um()
+    #     return super(ClassModel, self).save(*args, **kwargs)
 
     class Meta:
         abstract = True

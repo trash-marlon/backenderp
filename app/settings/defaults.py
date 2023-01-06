@@ -57,7 +57,8 @@ INSTALLED_APPS = [
     'pur',
     'conf',
     'acc',
-    'elr'
+    'elr',
+    'pry',
 ]
 
 MIDDLEWARE = [
