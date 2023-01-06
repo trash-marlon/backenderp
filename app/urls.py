@@ -41,7 +41,7 @@ from conf.api.router import router_configuration, router_cron, router_log, route
 from acc.api.router import router_tax, router_currency, router_journal
 
 # elr
-from elr.api.router import router_course
+from elr.api.router import router_course, router_lesson
 
 
 schema_view = get_schema_view(
@@ -105,4 +105,6 @@ urlpatterns = [
 
     # elr
     path('api/', include(router_course.urls)),
+    path('api/', include(router_lesson.urls)),
+
 ]
