@@ -40,6 +40,9 @@ from conf.api.router import router_configuration, router_cron, router_log, route
 # acc
 from acc.api.router import router_tax, router_currency, router_journal
 
+# elr
+from elr.api.router import router_course
+
 
 schema_view = get_schema_view(
    openapi.Info(
@@ -99,4 +102,7 @@ urlpatterns = [
     path('api/', include(router_tax.urls)),
     path('api/', include(router_currency.urls)),
     path('api/', include(router_journal.urls)),
+
+    # elr
+    path('api/', include(router_course.urls)),
 ]
