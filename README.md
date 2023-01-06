@@ -93,6 +93,8 @@ App to manage the stock.
 - [x] location
 - [x] brand
 - [x] model
+- [ ] picking
+- [ ] pickingLine 
 
 # sal (Sale)
 App to manage the sales.
