@@ -59,6 +59,7 @@ INSTALLED_APPS = [
     'acc',
     'elr',
     'pry',
+    'crm',
 ]
 
 MIDDLEWARE = [

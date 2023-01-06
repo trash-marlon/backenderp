@@ -2,16 +2,10 @@ from django.db import models
 from base.models import ClassModel
 
 
-class Category(ClassModel):
+class Brand(ClassModel):
     name = models.CharField(max_length=100, 
     unique=True,
-    help_text='Name of category')
-
-    for_website = models.BooleanField(default=False,
-    help_text='Show on website')
-
-    for_stock = models.BooleanField(default=True,
-    help_text='Show on stock')
+    help_text='Name of Brand')
 
     parent_id = models.ForeignKey('self',  
     on_delete=models.PROTECT,
@@ -24,6 +18,6 @@ class Category(ClassModel):
         return self.name
 
     class Meta:
-        verbose_name = 'Category'
-        verbose_name_plural = 'Categories'
+        verbose_name = 'Brand'
+        verbose_name_plural = 'Brands'
         ordering = ['name']
